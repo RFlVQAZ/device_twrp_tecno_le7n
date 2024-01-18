@@ -22,16 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from selene device
-$(call inherit-product, device/tecno/le7n/device.mk)
+$(call inherit-product, device/tecno/le7/device.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := le7n
-PRODUCT_NAME := twrp_le7n
+PRODUCT_DEVICE := le7
+PRODUCT_NAME := twrp_le7
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := le7n
+PRODUCT_MODEL := le7
 PRODUCT_MANUFACTURER := TECNO
 PRODUCT_RELEASE_NAME := TECNO POVA 2
 
