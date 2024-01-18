@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/tecno/le7n
+DEVICE_PATH := device/tecno/le7
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -61,7 +61,7 @@ BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := le7n
+TARGET_OTA_ASSERT_DEVICE := le7
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
