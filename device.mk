@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/tecno/le7n
+LOCAL_PATH := device/tecno/le7
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
